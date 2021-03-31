@@ -9,7 +9,9 @@ First: Get [Docker](https://www.docker.com/products/docker-desktop) installed.
 Clone this repo and visit it:
 
 ```bash
-git clone https://github.com/VioletVivirand/docker-spparks.git && cd docker-spparks
+git clone https://github.com/VioletVivirand/docker-spparks.git && \
+  cd docker-spparks && \
+  git checkout patched
 ```
 
 Then build an Ubuntu Docker image:
