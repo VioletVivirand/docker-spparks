@@ -14,7 +14,7 @@ git clone https://github.com/VioletVivirand/docker-spparks.git && \
   git checkout patched
 ```
 
-Then build an Ubuntu Docker image:
+Then build an Ubuntu Docker image. Put the `spparks.tar.gz` and `PATCH` directory into the current path and execute:
 
 ```bash
 ./build.sh
