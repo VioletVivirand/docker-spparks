@@ -6,6 +6,12 @@ Run [SPPARKS Kinetic Monte Carlo Simulator](https://spparks.sandia.gov) with Doc
 
 First: Get [Docker](https://www.docker.com/products/docker-desktop) installed.
 
+Clone this repo and visit it:
+
+```bash
+git clone https://github.com/VioletVivirand/docker-spparks.git && cd docker-spparks
+```
+
 Then build an Ubuntu Docker image:
 
 ```bash
