@@ -20,7 +20,7 @@ Then build an Ubuntu Docker image. Put the `spparks.tar.gz` and `PATCH` director
 ./build.sh
 ```
 
-The image will be tagged with `spparks:latest` and `spparks:<DATE>`.
+The image will be tagged with `spparks-patched:latest` and `spparks-patched:<DATE>`.
 
 Put the `in.*` script we're going to simulate in current directory, then execute with:
 

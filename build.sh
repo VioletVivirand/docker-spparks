@@ -1,3 +1,3 @@
-docker build -t spparks:latest . && \
-docker tag spparks:latest spparks:$(date '+%F')
+docker build -t spparks-patched:latest . && \
+docker tag spparks-patched:latest spparks-patched:$(date '+%F')
 
