@@ -12,7 +12,7 @@ COPY spparks.tar.gz /spparks.tar.gz
 
 RUN tar -zxf /spparks.tar.gz
 
-COPY solve_linear.cpp app_chemistry.cpp /spparks-24Jul20/src
+COPY PATCH/solve_linear.cpp PATCH/app_chemistry.cpp /spparks-24Jul20/src
 
 RUN cd /spparks-*/src && \
     make serial && \
