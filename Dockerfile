@@ -8,10 +8,11 @@ RUN apt-get update && \
     g++ && \
   rm -rf /var/lib/apt/lists/*
 
-RUN curl https://cs.sandia.gov/~sjplimp/tars/spparks.tar.gz \
-  -o /spparks.tar.gz
+COPY spparks.tar.gz /spparks.tar.gz
 
 RUN tar -zxf /spparks.tar.gz
+
+COPY solve_linear.cpp app_chemistry.cpp /spparks-24Jul20/src
 
 RUN cd /spparks-*/src && \
     make serial && \
